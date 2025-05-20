@@ -56,7 +56,7 @@ from vllm import LLM, SamplingParams
 
 # CodeGeeX4-ALL-9B
 # max_model_len, tp_size = 1048576, 4
-# If OOM，please reduce max_model_len，or increase tp_size
+# If OOM，please reduce max_model_len，or increase tp
 max_model_len, tp_size = 131072, 1
 model_name = "codegeex4-all-9b"
 prompt = [{"role": "user", "content": "Hello"}]
